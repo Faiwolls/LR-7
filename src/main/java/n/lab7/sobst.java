@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package n.lab4;
+package n.lab7;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -364,7 +364,7 @@ public class sobst {
         BufferedReader reader;
         String line;
         try {
-            reader = new BufferedReader(new FileReader("d:\\OOP\\lab4\\src\\main\\java\\n\\lab4\\sobst.txt"));
+            reader = new BufferedReader(new FileReader("d:\\OOP\\lab7\\src\\main\\java\\n\\lab7\\sobst.txt"));
             while ((line = reader.readLine()) != null) {
                 line = reader.readLine();
                 asbs[i].sobstnum = Integer.parseInt(line);
